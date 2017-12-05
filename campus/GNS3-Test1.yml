@@ -4,9 +4,16 @@
   gather_facts: false
   connection: local
 
+  vars:
+    cli:
+      host: ""
+      username: ""
+      password: ""  
+
   tasks:
     - name: enable ospf
       ios_config:
+        provider: "{{ cli }}"        
         hosts: R1
         authorize: yes
         parents: router ospf 1
