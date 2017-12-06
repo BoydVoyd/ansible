@@ -1,12 +1,12 @@
 ---
 - name: Manage GNS3 devices
-  hosts: all
+  hosts: Routers
   gather_facts: false
   connection: local
 
   vars:
     cli:
-      host: "Routers"
+      host: ""
       username: ""
       password: ""  
 
