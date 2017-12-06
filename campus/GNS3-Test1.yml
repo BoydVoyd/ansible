@@ -1,6 +1,6 @@
 ---
 - name: Manage GNS3 devices
-  hosts: 192.168.122.71
+  hosts: Routers
   gather_facts: false
   connection: local
 
