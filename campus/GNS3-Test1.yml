@@ -6,7 +6,7 @@
 
   vars:
     cli:
-      host: "Routers"
+      host: ""
       username: ""
       password: ""  
 
